@@ -1,0 +1,19 @@
+---
+title: grammartime!
+layout: base.njk
+pagination:
+  data: collections.explain
+  size: 100
+  alias: explanations
+---
+
+I thought you should know.
+
+{% for post in explanations %}
+  <article>
+    <h1>
+      <a href="{{ post.url | url }}">{{ post.data.title }}</a>
+      {{ post.content | safe }}
+    </h1>
+  </article>
+{% endfor %}
