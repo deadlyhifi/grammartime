@@ -1,7 +1,6 @@
 ---
 title: a versus an
 layout: base.njk
-tags: ["explain"]
 ---
 
 The tangled webs they weave span from Pine to Ruby Ridge, way back from Shay’s defeat on up to Gustafsen (now cue the ass parade of ditto-heads and commissars and pricks to drown out this faintest threat of commie faggot heretics).
