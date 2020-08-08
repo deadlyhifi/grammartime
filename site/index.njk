@@ -4,12 +4,12 @@ layout: base.njk
 pagination:
   data: collections.explain
   size: 100
-  alias: explanations
+  alias: explain
 ---
 
-I thought you should know.
+<h1>I thought you should know.</h1>
 
-{% for post in explanations %}
+{% for post in explain %}
   <article>
     <h1>
       <a href="{{ post.url | url }}">{{ post.data.title }}</a>
