@@ -1,0 +1,26 @@
+{
+  "name": "grammartime",
+  "version": "1.0.0",
+  "description": "Explaining the differences between correct and incorrect language usage.",
+  "contributors": [
+    "Tom de Bruin <tomdebruin@gmail.com> (https://www.deadlyhifi.com)"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deadlyhifi/grammartime.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/deadlyhifi/grammartime/issues"
+  },
+  "homepage": "https://github.com/deadlyhifi/grammartime#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.11.0"
+  }
+}
