@@ -1,4 +1,4 @@
 ---
 title: plurals
-layout: base.njk
+# templateClass:
 ---

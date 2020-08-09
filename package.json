@@ -9,6 +9,7 @@
   "scripts": {
     "dev": "eleventy --serve",
     "build": "eleventy",
+    "debug": "DEBUG=* eleventy",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

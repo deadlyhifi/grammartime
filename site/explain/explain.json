@@ -1,3 +1,4 @@
 {
-  "tags": ["explain"]
+  "tags": ["explain"],
+  "layout": "explain.njk"
 }
