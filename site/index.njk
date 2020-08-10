@@ -13,6 +13,7 @@ layout: base.njk
       <h1>
         <a href="{{ post.url | url }}">{{ post.data.title }}</a>
       </h1>
+      <p>{{ post.content | safe }}</p>
     </article>
   </li>
 {% endfor %}
