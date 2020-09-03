@@ -1,0 +1,51 @@
+@import "reset.css";
+
+:root {
+	--body-text: #333;
+	--body-background: #fff;
+}
+* {
+	box-sizing: border-box;
+}
+
+html,
+body {
+	padding: 0;
+	margin: 0;
+	font-family: system-ui, sans-serif;
+	color: var(--body-text);
+	background-color: var(--body-background);
+}
+
+[class^="main-"] {
+	max-width: 1200px;
+	margin: auto;
+}
+
+.main-header {
+	padding: 2rem 0;
+}
+
+.explanation-list {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: grid;
+	grid-gap: 1rem;
+	grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+}
+
+.explanation-list li {
+	border: 1px solid dodgerblue;
+	padding: 1rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.explanation-list article {
+}
+
+.main-footer {
+	padding: 2rem 0;
+}

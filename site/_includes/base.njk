@@ -4,16 +4,19 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ title }}</title>
-    <link rel="stylesheet" href="{{ '/css/index.css' | url }}">
+    <link rel="stylesheet" href="{{ '/css/style.css' | url }}">
   </head>
   <body>
+    <header class="main-header">
+      <h1>I thought you should know.</h1>
+    </header>
 
-    <main{% if templateClass %} class="{{ templateClass }}"{% endif %}>
+    <main class="main-content{% if templateclass %} {{ templateClass }}{% endif %}">
 
-    {{ content | safe }}
+      {{ content | safe }}
 
     </main>
 
-    <footer>Made with…</footer>
+    <footer class="main-footer">Made with…</footer>
   </body>
 </html>
